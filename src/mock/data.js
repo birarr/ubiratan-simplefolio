@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Ubiratan', // e.g: 'Name | Developer'
+  title: "Ubiratan's portfolio", // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: 'Portfolio', // e.g: Welcome to my website
 };
@@ -18,8 +18,10 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpeg',
-  paragraphOne: "Graduated in Mechatronics in 2007, working for several years in this segment. Also graduated in International Relations in 2015, having international experience through exchange done between 2014/2015. Started a new graduation  in 2018, this time in Information Systems, where I seeked to fit in the current market, by increasing my knowledge in IT. But what triggered a old passion for IT, especially for develop software that could make people's lives better.",
-  paragraphTwo: "I'm a very friendly person, who loves sports and animals, especially dogs. I have one called 'No Choke'. He is a beautiful American Bully pocket. I also practice Jiu-Jitsu, that is my therapy, and where I can relax and get the stress out.",
+  paragraphOne:
+    "Graduated in Mechatronics in 2007, working for several years in this segment. Also graduated in International Relations in 2015, having international experience through exchange done between 2014/2015. Started a new graduation  in 2018, this time in Information Systems, where I seeked to fit in the current market, by increasing my knowledge in IT. But what triggered a old passion for IT, especially for develop software that could make people's lives better.",
+  paragraphTwo:
+    "I'm a very friendly person, who loves sports and animals, especially dogs. I have one called 'No Choke'. He is a beautiful American Bully pocket. I also practice Jiu-Jitsu, that is my therapy, and where I can relax and get the stress out.",
   paragraphThree: ' ',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
@@ -30,28 +32,28 @@ export const projectsData = [
     id: nanoid(),
     img: 'letmeask.png',
     title: 'Letme Ask',
-    info: '',
+    info: 'A simple web app to create an enter in chat rooms to make questions. It uses Firebase integration and It has Google login to create a room and be able to make questions.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://letmeask-bbdb6.web.app/',
+    repo: 'https://github.com/birarr/letmeask', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'podcastr.png',
     title: 'Podcastr',
-    info: '',
+    info: 'An application to listen to podcasts, especially that ones related to IT. It use audio handle to make it work.',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/birarr/podcastrnext', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'proffy.jpeg',
     title: 'Proffy',
-    info: '',
+    info: 'A project to help students and teachers to find each other, to schedule classes for a variety of subjets',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/birarr/Proffy', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +61,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'birarr@gmail.com',
 };
 
 // FOOTER DATA
@@ -90,5 +92,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
